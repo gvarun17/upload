@@ -127,8 +127,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-AWS_ACCESS_KEY_ID = 'AKIAVQP2NEJ27YBPS4M6'
-AWS_SECRET_ACCESS_KEY = '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'
+AWS_ACCESS_KEY_ID = ''
+AWS_SECRET_ACCESS_KEY = ''
 AWS_S3_REGION_NAME = 'us-east-1'
 AWS_STORAGE_BUCKET_NAME = 'test-upload-us-east-1'
 AWS_S3_ENDPOINT_URL = 'https://s3.amazonaws.com'
